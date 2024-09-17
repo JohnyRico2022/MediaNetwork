@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">MediaNetwork</string>
+    <string name="app_name" translatable="false">MediaNetwork</string>
+    <string name="hello_media_network">Hello MediaNetwork!</string>
+    <string name="nmedia">рпррпрп</string>
 </resources>
