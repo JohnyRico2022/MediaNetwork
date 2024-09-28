@@ -40,4 +40,8 @@ object NumbersUtils {
             else -> number.toString()
         }
     }
+
+    fun postViews(): Int {
+        return (0..500).random()
+    }
 }

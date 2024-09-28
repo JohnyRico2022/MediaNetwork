@@ -7,8 +7,8 @@ import ru.nikita.medianetwork.repository.RepositoryInMemoryImpl
 class PostViewModel: ViewModel() {
 
     private val repository: Repository = RepositoryInMemoryImpl()
-    val data = repository.get()
-    fun like() = repository.like()
-    fun share() = repository.share()
+    val data = repository.getAll()
+    fun likeById(id: Long) = repository.likeById(id)
+    fun shareCounter(id: Long) = repository.shareCounter(id)
 
 }
