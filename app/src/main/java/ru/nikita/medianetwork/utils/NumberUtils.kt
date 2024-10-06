@@ -2,7 +2,8 @@ package ru.nikita.medianetwork.utils
 
 import java.math.RoundingMode
 
-object NumbersUtils {
+object NumberUtils {
+
     fun scoreDisplay(number: Int): String {
         val divisionK = number / 1000
         val divisionKtoDouble = number / 1000.toDouble()
